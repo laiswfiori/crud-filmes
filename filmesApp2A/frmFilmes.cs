@@ -106,10 +106,5 @@ namespace filmesApp2A
             f.ShowDialog();
             Recarregar(txtBusca.Text);
         }
-
-        private void dgvFilmes_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }

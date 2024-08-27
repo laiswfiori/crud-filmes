@@ -52,7 +52,6 @@
             label2.Size = new Size(86, 15);
             label2.TabIndex = 1;
             label2.Text = "Nacionalidade:";
-            label2.Click += label2_Click;
             // 
             // txtNome
             // 

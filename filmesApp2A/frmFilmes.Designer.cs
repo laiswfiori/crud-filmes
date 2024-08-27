@@ -105,7 +105,6 @@
             dgvFilmes.Size = new Size(690, 270);
             dgvFilmes.TabIndex = 10;
             dgvFilmes.CellClick += dgvFilmes_CellClick;
-            dgvFilmes.CellContentClick += dgvFilmes_CellContentClick;
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -162,7 +161,7 @@
             Name = "frmFilmes";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "frmFilmes";
-            FormClosing += this.frmFilmes_FormClosing;
+            FormClosing += frmFilmes_FormClosing;
             Load += frmFilmes_Load;
             ((System.ComponentModel.ISupportInitialize)dgvFilmes).EndInit();
             ((System.ComponentModel.ISupportInitialize)filmeBindingSource).EndInit();

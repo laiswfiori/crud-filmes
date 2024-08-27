@@ -106,7 +106,6 @@
             Name = "frmElenco";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "frmElenco";
-            FormClosing += frmElenco_FormClosing;
             ((System.ComponentModel.ISupportInitialize)dgvElenco).EndInit();
             ((System.ComponentModel.ISupportInitialize)atorBindingSource).EndInit();
             ResumeLayout(false);

@@ -49,7 +49,6 @@
             txtBusca.Name = "txtBusca";
             txtBusca.Size = new Size(609, 23);
             txtBusca.TabIndex = 0;
-            txtBusca.TextChanged += txtBusca_TextChanged;
             // 
             // btBuscar
             // 
@@ -104,7 +103,6 @@
             dgvAtores.Size = new Size(690, 270);
             dgvAtores.TabIndex = 5;
             dgvAtores.CellClick += dgvAtores_CellClick;
-            dgvAtores.CellContentClick += dgvAtores_CellContentClick;
             // 
             // idDataGridViewTextBoxColumn
             // 

@@ -41,10 +41,5 @@ namespace filmesApp2A
             MessageBox.Show("Sucesso!");
             this.Close();
         }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

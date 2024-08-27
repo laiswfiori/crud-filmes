@@ -73,9 +73,5 @@ namespace filmesApp2A
             List<Ator> atores = this.db.Ator.Where(a => a.Filmes.Contains(filme)).ToList();
             dgvElenco.DataSource = atores;
         }
-
-        private void frmElenco_FormClosing(object sender, FormClosingEventArgs e)
-        {
-        }
     }
 }
