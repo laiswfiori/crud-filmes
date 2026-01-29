@@ -66,7 +66,7 @@ Desenvolver uma aplicação desktop para praticar conceitos de **Programação O
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/laiswfiori/crud-filmes.git
 2. Abra o projeto no Visual Studio
 3. Certifique-se de que o PostgreSQL está instalado e em execução
 4. Ajuste a string de conexão no arquivo Contexto.cs, se necessário:
